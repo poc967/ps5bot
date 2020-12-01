@@ -4,8 +4,13 @@
   "description": "A simple bot for purchasing a ps5 from walmart website.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Patrick O'Connor",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
 }
